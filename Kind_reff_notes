@@ -4,3 +4,14 @@ use to inisialt  the cluster
 
 ``` kind create cluster --image kindest/node:v1.29.4@sha256:3abb816a5b1061fb15c6e9e60856ec40d56b7b52bcea5f5f1350bc6e2320b6f8 --name cka-cluster1 --config kind_config.yaml ```
 use with config file
+
+kubectl edit pod nginix-pod
+
+kubectl run ngnix --image=nginx --dry-run=client
+dry run
+kubectl run ngnix --image=nginx --dry-run=client -o yaml
+give o/p in a yaml
+
+
+kubectl get pods -o wide 
+give extra info like ip , node
