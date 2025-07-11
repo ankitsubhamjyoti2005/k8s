@@ -15,3 +15,5 @@ give o/p in a yaml
 
 kubectl get pods -o wide 
 give extra info like ip , node
+
+LECH - 8 
